@@ -1,0 +1,11 @@
+{
+    "rule_id": "SUSPICIOUS_LOGIN_001",
+    "name": "Successful Login After Multiple Failures",
+    "description": "Detects a successful login occurring shortly after repeated failed login attempts.",
+    "event_type": "LOGIN_SUCCESS",
+    "failure_threshold": 3,
+    "window_minutes": 5,
+    "severity": "CRITICAL",
+    "confidence": 0.90,
+    "mitre_technique": "T1110"
+}

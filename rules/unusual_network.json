@@ -1,0 +1,9 @@
+{
+    "rule_id": "NET_ANOMALY_001",
+    "name": "Unusual Network Connection",
+    "description": "Detects a network connection to an unusual external destination.",
+    "event_type": "NETWORK_CONNECTION",
+    "severity": "HIGH",
+    "confidence": 0.87,
+    "mitre_technique": "T1071"
+}

@@ -1,0 +1,11 @@
+{
+    "rule_id": "BRUTE_FORCE_001",
+    "name": "SSH Brute Force Detection",
+    "description": "Detects repeated failed login attempts from the same source IP within a short time window.",
+    "event_type": "LOGIN_FAILED",
+    "threshold": 5,
+    "window_minutes": 5,
+    "severity": "HIGH",
+    "confidence": 0.95,
+    "mitre_technique": "T1110"
+}

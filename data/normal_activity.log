@@ -1,0 +1,3 @@
+2026-09-07 22:30:01 LOGIN_SUCCESS user=yash ip=192.168.1.70 host=kali-lab
+2026-09-07 22:35:01 LOGIN_SUCCESS user=yash ip=192.168.1.70 host=kali-lab
+2026-09-07 22:40:01 PROCESS_STARTED user=yash ip=192.168.1.70 host=kali-lab process=browser

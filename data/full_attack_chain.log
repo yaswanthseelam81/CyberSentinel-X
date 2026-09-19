@@ -1,0 +1,5 @@
+2026-09-13 21:00:01 LOGIN_SUCCESS user=yash ip=192.168.1.60 host=kali-lab
+2026-09-13 21:00:10 PRIVILEGE_GRANTED user=yash ip=192.168.1.60 host=kali-lab
+2026-09-13 21:00:20 PROCESS_STARTED user=yash ip=192.168.1.60 host=kali-lab process=example_suspicious_process
+2026-09-13 21:00:30 DNS_QUERY user=yash ip=192.168.1.60 host=kali-lab domain=very-long-suspicious-domain.example
+2026-09-13 21:00:40 NETWORK_CONNECTION user=yash ip=192.168.1.60 host=kali-lab destination=203.0.113.50

@@ -1,0 +1,9 @@
+{
+    "rule_id": "PRIV_ESC_001",
+    "name": "Suspicious Privilege Escalation",
+    "description": "Detects a user gaining elevated privileges after a suspicious authentication event.",
+    "event_type": "PRIVILEGE_GRANTED",
+    "severity": "CRITICAL",
+    "confidence": 0.92,
+    "mitre_technique": "T1548"
+}

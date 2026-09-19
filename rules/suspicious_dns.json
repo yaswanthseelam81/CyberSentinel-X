@@ -1,0 +1,9 @@
+{
+    "rule_id": "DNS_ANOMALY_001",
+    "name": "Suspicious DNS Activity",
+    "description": "Detects an unusual DNS request associated with suspicious activity.",
+    "event_type": "DNS_QUERY",
+    "severity": "MEDIUM",
+    "confidence": 0.85,
+    "mitre_technique": "T1071"
+}

@@ -1,10 +1,24 @@
+# Virtual environment
 .venv/
+
+# Python cache
 __pycache__/
-*.pyc
-.env
-.env.*
-.vscode/
-*.log
-*.sqlite3
+*.py[cod]
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local database
 *.db
-evidence/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log.tmp

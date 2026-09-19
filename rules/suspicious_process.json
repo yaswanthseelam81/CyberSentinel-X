@@ -1,0 +1,9 @@
+{
+    "rule_id": "PROC_EXEC_001",
+    "name": "Suspicious Process Execution",
+    "description": "Detects execution of a process associated with suspicious activity.",
+    "event_type": "PROCESS_STARTED",
+    "severity": "HIGH",
+    "confidence": 0.88,
+    "mitre_technique": "T1059"
+}
